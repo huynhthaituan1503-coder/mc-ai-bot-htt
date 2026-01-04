@@ -2,11 +2,12 @@
   "name": "mc-ai-bot",
   "version": "1.0.0",
   "main": "index.js",
-  "dependencies": { 
+  "dependencies": {
     "ws": "^8.13.0",
     "@google/generative-ai": "^0.1.0"
   },
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "preinstall": "echo 'package-lock=false' > .npmrc"
   }
 }
