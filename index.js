@@ -9,7 +9,7 @@ const server = http.createServer((req, res) => {
 });
 
 // 2. CẤU HÌNH AI - DÁN KEY CỦA BẠN VÀO DÒNG DƯỚI ĐÂY
-const genAI = new GoogleGenerativeAI("DÁN_API_KEY_CỦA_BẠN_VÀO_ĐÂY");
+const genAI = new GoogleGenerativeAI("AIzaSyBcxpJbMM9hvV977B9mxceYCdpjI4MPbdM");
 const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
 
 // 3. Thiết lập WebSocket Server
